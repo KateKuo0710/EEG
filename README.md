@@ -10,3 +10,9 @@ cd model
 git clone https://www.modelscope.cn/LLM-Research/Meta-Llama-3-8B.git # 下载llama3 8b模型
 </pre>
 参考：https://blog.csdn.net/fzzsh/article/details/138479005  
+
+# 用patchTST跑癫痫公开数据集
+数据集： 癫痫发作识别数据集  
+下载地址：https://archive.ics.uci.edu/ml/datasets/Epileptic+Seizure+Recognition  
+178个数据点的11,500个样本（178个数据点= 1秒的脑电图记录）  
+11,500个具有5个类别的目标：1个代表癫痫发作波形，而2-5代表非癫痫发作波形  
